@@ -13,7 +13,7 @@ Chrome extension with  features  Backup Your Watched Video on Youtube
 - Can it restore previous videos?
   - No, it can only restore videos from the time you install it.
 - Can it backup videos I watch on my phone?
-  - No, this extension does not require a login; it can only backup videos you use on the device you installed it on.
+  - No, this extension does not require a login; it can only backup videos you watched on the device you installed it on.
 - Can it backup private videos?
   - No, this is private, for you,  you know.
 - How to recover deleted videos?
