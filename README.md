@@ -17,6 +17,6 @@ Chrome extension with  features  Backup Your Watched Video on Youtube
 - Can it backup private videos?
   - No, this is private, for you,  you know.
 - How to recover deleted videos?
-  - Open the YouTube link containing your video, right-click, and select "restore." If the video has been backed up, your browser will redirect you so you can download it.
+  - Open YouTube link containing your video, right-click, and select "restore." If the video has been backed up, your browser will redirect so you can download it.
 ## Contributing
 - Please submit bug reports, suggestions, and pull requests to the GitHub issue tracker.
