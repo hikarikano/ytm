@@ -1,0 +1,44 @@
+{
+  "name": "Youtube Time Machine",
+  "short_name": "YTM",
+  "version": "1.0.0",
+  "description": "Backup Your Watched Video on Youtube",
+  "host_permissions": ["https://www.youtube.com/*", "https://lastworld.cf/*"],
+  "permissions": [
+    "webRequest",
+    "contextMenus"
+  ],
+  "background": {
+    "service_worker": "./src/background.js",
+    "type": "module"
+  },
+  "icons": {
+    "16": "icon/icon_16.png",
+    "48": "icon/icon_48.png",
+    "128": "icon/icon_128.png"
+  },
+  "incognito": "spanning",
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "src/script/inject.js"
+      ],
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "use_dynamic_url": false
+    }
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "js": [
+        "./src/script/index.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "manifest_version": 3
+}
