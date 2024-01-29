@@ -8,7 +8,7 @@ Chrome extension with  features  Backup Your Watched Video on Youtube
 - Select "Load Unpacked"
 - Enjoy
 ## FAQ
-- I can see "Load Unpacked".
+- I can't see "Load Unpacked".
   - Make sure you have developer mode enabled.
 - Can it restore previous videos?
   - No, it can only restore videos from the time you install it.
