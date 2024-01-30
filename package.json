@@ -1,14 +1,14 @@
 {
   "name": "ytm",
-  "version": "1.0.0",
-  "description": "Chrome extension with  features  Backup Your Watched Video on Youtube\r ## Install\r - Download this repo\r - Unzip to where you want to save (don't delete it yee)\r - Open Chrome: chrome://extensions/\r - Select \"Load Unpacked\"\r - Enjoy\r ## FAQ\r - I can't see \"Load Unpacked\".\r   - Make sure you have developer mode enabled.\r - Can it restore previous videos?\r   - No, it can only restore videos from the time you install it.\r - Can it backup videos I watch on my phone?\r   - No, this extension does not require a login; it can only backup videos you use on the device you installed it on.\r - Can it backup private videos?\r   - No, this is private, for you,  you know.\r - How to recover deleted videos?\r   - Open the YouTube link containing your video, right-click, and select \"restore.\" If the video has been backed up, your browser will redirect you so you can download it.\r ## Contributing\r - Please submit bug reports, suggestions, and pull requests to the GitHub issue tracker.",
-  "main": "index.js",
+  "version": "1.1.0",
+  "description": "Chrome extension with  features  Backup Your Watched Video on Youtube",
+  "main": "echo \"Error: no file specified\" && exit 1",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "cz-conventional-changelog": "^3.3.0"
   },
